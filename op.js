@@ -71,4 +71,7 @@ const nav = document.querySelector(".nav"),
             allSection[i].classList.toggle("open")
         }
     }
-    
+    const download = document.getElementById("mahmoud");
+    download.addEventListener("click", function(){
+        download.innerText = "This file is not currently available";
+    });
