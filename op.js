@@ -58,12 +58,12 @@ const nav = document.querySelector(".nav"),
         updateNav(this);
         removeBackSection();
         addBackSection(sectionIndex)
-    })
+    });
     const navToggelrBtn = document.querySelector(".nav-toggelr"),
     aside = document.querySelector(".aside");
     navToggelrBtn.addEventListener("click", () => {
         asideSectionToggelrBtn();
-    })
+    });
     function asideSectionToggelrBtn() {
         aside.classList.toggle("open");
         navToggelrBtn.classList.toggle("open");
